@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Do what you love!</title>
+
+    <link href="./styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+</head>
+
+<body>
+
+
+
+    <!-- Navigation -->
+
+    <nav class="navbar">
+
+        <div class="nav-marker"><a href="index.html">
+                <i class="fas fa-map-marker-alt"></i>Meeting Spot</a>
+        </div>
+
+        <ul class="nav-list">
+            <li class="nav-link"><a href="#">Events</a></li>
+            <li class="nav-link"><a href="#">Sign Up</a></li>
+            <li class="nav-link"><a href="profile.html">Sign In</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <div class="wrapper">
+
+
+            <!-- Search Header -->
+
+            <div class="search-wrapper">
+
+
+                <div class="search-title">
+
+                    <h1>Search for an interesting event</h1>
+                    <a class="button btn-createnew" href="#" target="_blank">Create a new event</a>
+
+                </div>
+
+
+
+                <!-- Inline Form -->
+
+                <form class="form">
+
+                    <input type="search" placeholder="Find your next event">
+
+                    <input type="search" name="location" placeholder="Where?">
+
+                    <select class="search-box" name="search-radious" id="">
+                        <option value="1">This area only</option>
+                        <option value="2">Within <sup>1</sup>&frasl;<sub>2</sub> mile</option>
+                        <option value="3">Within 1 mile</option>
+                        <option value="4">Within 3 mile</option>
+                        <option value="5">Within 5 mile</option>
+                        <option value="5">Within 10 mile</option>
+                        <option value="5">Within 25 mile</option>
+                        <option value="5">Within 50 mile</option>
+                    </select>
+
+                    <select class="search-box" name="search-date" id="">
+                        <option value="1">Any day</option>
+                        <option value="2">Today</option>
+                        <option value="3">Tomorrow</option>
+                        <option value="4">This week</option>
+                        <option value="5">This weekend</option>
+                        <option value="5">Next week</option>
+                    </select>
+
+                    <select class="search-box" name="search-time" id="">
+                        <option value="1">Any time</option>
+                        <option value="2">Evening (after 5pm)</option>
+                        <option value="3">Afternoon (12pm - 5pm)</option>
+                        <option value="4">Morning (before 12pm)</option>
+                    </select>
+
+                    <input class="button submit" type="submit" value="Search">
+
+                </form>
+
+            </div>
+
+
+
+            <!-- Search Results -->
+
+            <div class="cards-wrapper">
+
+                <div class="card">
+                    <img class="img-card"
+                        src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=360&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"
+                        alt="Music gig">
+
+                    <p class="card-what">Music Gig</p>
+
+                    <p class="card-when">In 1 month</p>
+
+                    <h2 class="card-header">The Libertines</h2>
+
+                    <p class="card-description">As they put the finishing touches to their fourth studio album, The
+                        Libertines will also embark on a Christmas jaunt across the UK, marking their first headline
+                        tour in over two years.</p>
+
+                    <div class="line"></div>
+                   
+                    <img class="img-profile"
+                        src="https://images.unsplash.com/photo-1542080681-b52d382432af?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=360&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"
+                        alt="Profile picture">
+
+                    <a href="#" class="card-username"><p class="card-user">Olivia Brown</p></a>
+
+                    <a href="#" class="card-mutual"><i class="fas fa-user-friends"></i><span>7</span></a>   
+
+                </div>
+
+            
+
+                <div class="card">
+                    <img class="img-card"
+                        src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=360&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9" 
+                        alt="DJ at work | HD photo by Marcela Laskoski (@marcelalaskoski) on Unsplash" title="DJ at work">
+                        
+                    <p class="card-what">Music Gig</p>
+
+                    <p class="card-when">In 2 weeks</p>
+
+                    <h2 class="card-header">Simple Things Festival 2019</h2>
+
+                    <p class="card-description">Simple Things is an eclectic city centre music festival in Bristol, held
+                    across multiple venues in the hip, south west UK city.</p>
+
+                    <div class="line"></div>
+
+                    <img class="img-profile"
+                        src="https://images.unsplash.com/photo-1542080681-b52d382432af?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=360&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9"
+                        alt="Profile picture">
+
+                    <a href="#" class="card-username"><p class="card-user">Olivia Brown</p></a>
+
+                    <a href="#" class="card-mutual"><i class="fas fa-user-friends"></i><span>2</span></a>
+
+                </div> 
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- Footer -->
+
+     <footer class="footbar">
+        <p id="footer-note-01">&copy;2018-2019</p>
+        <p id="footer-note-02">Terms and Conditions</p>
+    </footer>
+
+</body>
+
+</html>
